@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-tob$r3!0)6c4&=@l68(xb*j)mrh7_c@5($wxz3r9jb2#43*q74
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['8000-sari-rahul-django-blog-fco2uou6g2.us2.codeanyapp.com','my-django-blogg-8b318e9a4b3c.herokuapp.com/']
+ALLOWED_HOSTS = ['8000-sari-rahul-django-blog-fco2uou6g2.us2.codeanyapp.com','my-django-blogg-8b318e9a4b3c.herokuapp.com']
 
 
 # Application definition
