@@ -28,8 +28,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-ALLOWED_HOSTS = ['8000-sari-rahul-django-blog-fco2uou6g2.us2.codeanyapp.com','my-django-blogg-8b318e9a4b3c.herokuapp.com']
+DEBUG = True
+ALLOWED_HOSTS = ['8000-sarirahul-djangoblog-wmjkqfizqbd.ws-eu107.gitpod.io','my-django-blogg-8b318e9a4b3c.herokuapp.com']
 
 
 # Application definition
@@ -88,8 +88,8 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    "https://*.gitpod.io"
 ]
 
 
